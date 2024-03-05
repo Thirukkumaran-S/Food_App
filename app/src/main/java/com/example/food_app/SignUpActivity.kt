@@ -36,7 +36,7 @@ class SignUpActivity : AppCompatActivity() {
 
     }
 //lets get signup
-private fun performSignup(){
+private fun performSignup() {
     val email: EditText = findViewById(R.id.s_email)
     val username: EditText = findViewById(R.id.s_username)
     val pwd1: EditText = findViewById(R.id.s_pwd)
